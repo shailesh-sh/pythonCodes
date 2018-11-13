@@ -1,6 +1,6 @@
 import requests
 import tkinter as tk
-from bs4 import BeautifulSoup
+#from bs4 import BeautifulSoup
 
 
 def Convert():
