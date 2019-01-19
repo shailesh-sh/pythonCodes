@@ -7,7 +7,7 @@ filename = input("Enter the file Name from which you want to copy\n")
 input1 = input("Enter the start to initiate\n")
 
 if input1 == "start":
-    subprocess.Popen(['C:\\Program Files (x86)\\ogs\\Notepadapp.exe'])
+    subprocess.Popen(['path to the any application like notepad'])
     keyboard = Controller()
     time.sleep(2)
     with open(filename) as f:
